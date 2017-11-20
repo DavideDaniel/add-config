@@ -1,0 +1,25 @@
+{
+  "name": "add-config",
+  "version": "0.1.0",
+  "description": "easily add configs to package.json and have them validated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config",
+    "package.json",
+    "validate"
+  ],
+  "author": "David Daniel <davidedaniel@gmail.com> (http://davidedaniel.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "from-dir": "^0.1.1",
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.0"
+  }
+}
